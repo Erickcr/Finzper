@@ -9,16 +9,12 @@ import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class MainActivity : AppCompatActivity() {
 
-    lateinit var toolbar: ActionBar
-
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
-        toolbar = supportActionBar!!
+         setSupportActionBar(findViewById(R.id.my_toolbar))
         val bottomNavigation: BottomNavigationView = findViewById(R.id.bottom_navigation)
-
+        bottomNavigation.itemIconTintList = null
         bottomNavigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener)
 
     }
@@ -52,3 +48,4 @@ class MainActivity : AppCompatActivity() {
     }
 
 }
+
