@@ -10,5 +10,13 @@
         android:name="com.example.finzper.LoginFragment"
         android:label="fragment_login"
         tools:layout="@layout/fragment_login" />
+    <fragment
+        android:id="@+id/principalFragment"
+        android:name="com.example.finzper.PrincipalFragment"
+        android:label="fragment_principal"
+        tools:layout="@layout/fragment_principal"
+
+
+        />
 
 </navigation>

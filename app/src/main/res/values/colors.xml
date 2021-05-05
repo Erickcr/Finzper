@@ -10,5 +10,8 @@
 
     <color name="naranja_navigation">#FD7239</color>
     <color name="gris_navigation">#F5F5F5</color>
+    <color name="gris_title">#566A7B</color>
+
+
 
 </resources>
