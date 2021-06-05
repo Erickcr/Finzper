@@ -1,25 +1,22 @@
 package com.example.finzper
 
-import android.app.Activity
 import android.content.Intent
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageButton
-import androidx.appcompat.app.AppCompatActivity
-import java.security.AccessController.getContext
 
-
-class NewGastosActivity : AppCompatActivity() {
+class NewIngresosActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_new_gastos)
+        setContentView(R.layout.activity_new_ingresos)
 
         val btnRegresar = findViewById<ImageButton>(R.id.btn_regresar)
         btnRegresar.setOnClickListener{
             showRegresar()
         }
 
-        val btnAgregar= findViewById<Button>(R.id.btn_newgasto)
+        val btnAgregar= findViewById<Button>(R.id.btn_newingreso)
         btnAgregar.setOnClickListener{
             showAgregar()
         }
@@ -35,7 +32,4 @@ class NewGastosActivity : AppCompatActivity() {
         startActivity(inicioIntent)
 
     }
-
-
-
 }

@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Finzper">
-        <activity android:name=".NewGastosActivity"></activity>
+        <activity android:name=".NewIngresosActivity"></activity>
+        <activity android:name=".NewGastosActivity" />
         <activity android:name=".RegistroActivity" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".BienvenidaActivity">

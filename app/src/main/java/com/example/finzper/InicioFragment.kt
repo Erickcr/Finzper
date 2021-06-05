@@ -28,8 +28,13 @@ class InicioFragment : Fragment(){
             }
         }
 
-    }
+        btn_ingresos.setOnClickListener {
+            requireContext().let{
+                it.startActivity(Intent(it, NewIngresosActivity::class.java))
+            }
+        }
 
+    }
 
 
     companion object {

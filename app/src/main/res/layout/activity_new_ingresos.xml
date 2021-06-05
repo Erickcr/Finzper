@@ -44,7 +44,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Nuevo gasto"
+                android:text="Nuevo ingreso"
                 android:textAlignment="center"
                 android:textSize="33sp"
                 android:textColor="@color/gris_title"
@@ -105,12 +105,12 @@
                         android:textColor="@color/gris_title" />
 
                     <Button
-                        android:id="@+id/btn_newgasto"
+                        android:id="@+id/btn_newingreso"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:layout_marginTop="25dp"
                         android:background="@drawable/btn_registro"
-                        android:text="Agregar gasto"
+                        android:text="Agregar ingreso"
                         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                         android:textColor="@color/white"
                         android:textSize="15dp" />
