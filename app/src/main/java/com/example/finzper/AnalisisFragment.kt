@@ -29,6 +29,7 @@ class AnalisisFragment : Fragment() {
     }
 
     private fun setPieChart() {
+        
 
         val NoOfEmp = ArrayList<PieEntry>()
 

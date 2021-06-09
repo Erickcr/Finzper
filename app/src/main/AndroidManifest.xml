@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Finzper">
-        <activity android:name=".NewIngresosActivity"></activity>
+        <activity android:name=".nuegoingreso"></activity>
+        <activity android:name=".nuevogasto" />
+        <activity android:name=".categorias" />
+        <activity android:name=".perfil" />
+        <activity android:name=".inicio" />
+        <activity android:name=".NewIngresosActivity" />
         <activity android:name=".NewGastosActivity" />
         <activity android:name=".RegistroActivity" />
         <activity android:name=".LoginActivity" />

@@ -80,29 +80,21 @@
                     android:orientation="vertical">
 
                     <EditText
-                        android:id="@+id/ingreso_cantidad"
+                        android:id="@+id/ingresar_cantidad"
                         android:layout_width="match_parent"
-                        android:layout_height="40dp"
-                        android:background="@drawable/editext"
+                        android:layout_height="wrap_content"
                         android:ems="10"
-                        android:hint="Escribe la cantidad"
                         android:inputType="number"
-                        android:padding="10dp"
-                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                        android:textColor="@color/gris_title" />
+                        android:hint="Cantidad"/>
 
-                    <Spinner
-                        android:id="@+id/ingreso_categoria"
+
+                    <EditText
+                        android:id="@+id/ingresar_categoria"
                         android:layout_width="match_parent"
-                        android:layout_height="40dp"
-                        android:layout_marginTop="20dp"
-                        android:background="@drawable/editext"
+                        android:layout_height="wrap_content"
                         android:ems="10"
-                        android:hint="Categoria"
-                        android:inputType="textPassword"
-                        android:padding="10dp"
-                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                        android:textColor="@color/gris_title" />
+                        android:inputType="textPersonName"
+                        android:hint="Categoria" />
 
                     <Button
                         android:id="@+id/btn_newingreso"
